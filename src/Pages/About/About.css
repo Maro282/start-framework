@@ -1,0 +1,14 @@
+.paragraphs-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .paragraphs-box {
+    width: 100%;
+    flex-direction: column;
+  }
+}

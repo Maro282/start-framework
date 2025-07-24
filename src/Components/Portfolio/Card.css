@@ -1,0 +1,49 @@
+.img-box {
+  position: relative;
+  cursor: pointer;
+}
+
+.img-box-layout {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--about-background-color);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.img-box:hover .img-box-layout {
+  opacity: 1;
+}
+
+.img-box-layout i {
+  font-size: 50px;
+  color: var(--white-color);
+}
+
+/* slid show handling*/
+.slide-show-style {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.close-btn {
+  font-size: 40px;
+  color: red;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+}

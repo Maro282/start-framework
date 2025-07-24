@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: #fff;
+  --main-color: rgb(44, 62, 80);
+  --about-background-color: rgb(26, 188, 156);
+}
+
+body {
+  height: 100vh;
+}

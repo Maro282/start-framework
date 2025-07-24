@@ -1,0 +1,10 @@
+.line {
+  width: 80px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+.header h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
